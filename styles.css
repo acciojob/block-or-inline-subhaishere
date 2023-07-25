@@ -1,2 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(135, 206, 235);
+    margin: 0;
+    padding: 20px;
+}
 
-/* Your CSS Code here. */
+div {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+button, input, cite, code, sup, sub {
+    display: inline;
+}
+
+h1 {
+    display: block;
+    font-size: 22px;
+}
+
+div[data-ns-test^="block-inline"] {
+    display: block;
+}
